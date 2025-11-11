@@ -4,10 +4,7 @@ author: "RAJAKRISHNAN MANIVEL"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
-_Fecilitators_
-Dr. V. Mallika
-&
-Dr. M. Rajakrishnan
+
 
 # Introduction
 
