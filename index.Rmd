@@ -1,5 +1,5 @@
 --- 
-title: "ACCOUNING SOFTWARE"
+title: "ACCOUNTING SOFTWARE"
 author: "RAJAKRISHNAN MANIVEL"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -7,4 +7,14 @@ site: bookdown::bookdown_site
 
 
 # Introduction
+##Fecilitators
+Dr.V.Mallika
+Associate Professor and Dean
+School of Commerce
+PSG College of Arts & Science
 
+&
+
+Dr. M. Rajakrishnan
+Assistant Professor in Commerce CA
+PSG College of Arts & Science

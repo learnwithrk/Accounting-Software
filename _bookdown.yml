@@ -5,4 +5,4 @@ edit: https://github.com/learnwithrk/Accounting-Software/edit/main/%s
 view: https://github.com/learnwithrk/Accounting-Software/blob/main/%s
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: ""
