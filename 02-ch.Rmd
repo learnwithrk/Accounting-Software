@@ -30,7 +30,7 @@ Country: India
 State: Tamil Nadu  
 Email: info@rkenterprises.in
 
-![Company Creation – Step 1](path/to/image1.png){width=70%}  
+![Company Creation – Step 1](images/2.1.png){width=70%}  
 *Figure: Company Creation screen in TallyPrime – entering name, address, mailing name, books-beginning date, currency symbol.*  
 
 
