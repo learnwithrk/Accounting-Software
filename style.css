@@ -12,3 +12,10 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+.caption {
+  color: #004080;
+  font-size: 0.9em;
+  font-style: italic;
+  text-align: center;
+}
