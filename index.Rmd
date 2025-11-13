@@ -7,6 +7,8 @@ site: bookdown::bookdown_site
 
 
 # Introduction
+This Book will help the learner in Creating the Company, necessary Ledgers and Preparing various statements.
+
 ## Fecilitators
 _Dr.V.Mallika_  
 
