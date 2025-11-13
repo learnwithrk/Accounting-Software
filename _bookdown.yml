@@ -1,5 +1,5 @@
 book_filename: "bookdownproj"
-output_dir: docs
+output_dir: "docs"
 delete_merged_file: true
 edit: https://github.com/learnwithrk/Accounting-Software/edit/main/%s
 view: https://github.com/learnwithrk/Accounting-Software/blob/main/%s
