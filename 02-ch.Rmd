@@ -1,3 +1,8 @@
+---
+title: "Fundamentals: Company Creation"
+output: bookdown::html_document2
+---
+
 # Fundamentals: Company Creation
 
 This chapter explains the basic steps for creating and maintaining a company in **Tally Prime**, including company details, statutory information (GST, TDS, TCS), and account management.
@@ -8,29 +13,32 @@ This chapter explains the basic steps for creating and maintaining a company in 
 
 ### Steps
 
-1. Open **Tally Prime**.
-2. From the **Gateway of Tally**, select **Create Company**.
+1. Open **Tally Prime**.  
+2. From the **Gateway of Tally**, select **Create Company**.  
 3. Enter the following details carefully:
 
 | Field | Description |
-|--------|--------------|
-| **Directory** | The folder path where company data will be stored. |
-| **Name** | Enter the legal name of the company (e.g., *ABC Traders Pvt. Ltd.*). |
-| **Mailing Name** | This can be the same as the company name or a trade name. |
-| **Address** | Enter the full postal address. |
-| **Country** and **State** | Choose the correct location for GST and statutory compliance. |
+|--------|-------------|
+| **Directory** | Folder path where company data will be stored. |
+| **Name** | Legal name of the company (e.g., *ABC Traders Pvt. Ltd.*). |
+| **Mailing Name** | Can be same as the company name or a trade name. |
+| **Address** | Full postal address. |
+| **Country** and **State** | Choose correct location for GST and statutory compliance. |
 | **Pincode** | Optional but recommended. |
-| **Telephone No. / Mobile / Email / Website** | Contact information for invoices and reports. |
+| **Telephone / Mobile / Email / Website** | Contact details for invoices and reports. |
 
 ### Example
-Name: RK Enterprises  
-Mailing Name: RK Enterprises  
-Address: No. 12, Main Road, Chennai – 600001  
-Country: India  
-State: Tamil Nadu  
-Email: info@rkenterprises.in
 
-![Company Creation – Step 1](images/2.1.png){width=70%}  
-*Figure: Company Creation screen in TallyPrime – entering name, address, mailing name, books-beginning date, currency symbol.*  
+**Name:** RK Enterprises  
+**Mailing Name:** RK Enterprises  
+**Address:** No. 12, Main Road, Chennai – 600001  
+**Country:** India  
+**State:** Tamil Nadu  
+**Email:** info@rkenterprises.in  
+
+---
+
+## Visual Reference – Company Creation Screens
+![Company Creation](images/2.1.png){width=70%}
 
 

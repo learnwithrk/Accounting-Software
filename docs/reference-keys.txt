@@ -4,5 +4,6 @@ fundamentals-company-creation
 creating-a-company
 steps
 example
+visual-reference-company-creation-screens
 company-features-and-statutory-details
 passing-journals
