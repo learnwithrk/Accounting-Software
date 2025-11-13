@@ -5,6 +5,7 @@ creating-a-company
 steps
 example
 visual-reference-company-creation-screens
+company-creation-step-1
 company-features-and-statutory-details
 a-enable-statutory-taxation
 currency-symbol-setup
