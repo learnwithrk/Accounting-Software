@@ -5,13 +5,4 @@ creating-a-company
 steps
 example
 company-features-and-statutory-details
-a-enable-statutory-taxation
-currency-symbol-setup
-maintaining-accounts
-selection-closure-and-alteration-of-company
-a-selecting-a-company
-b-altering-company-information
-c-closing-a-company
-backup-and-security-recommended
-summary
 passing-journals
