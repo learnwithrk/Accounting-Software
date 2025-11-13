@@ -15,14 +15,4 @@ b-altering-company-information
 c-closing-a-company
 backup-and-security-recommended
 summary
-company-features-and-statutory-details-1
-a-enable-statutory-taxation-1
-currency-symbol-setup-1
-maintaining-accounts-1
-selection-closure-and-alteration-of-company-1
-a-selecting-a-company-1
-b-altering-company-information-1
-c-closing-a-company-1
-backup-and-security-recommended-1
-summary-1
 passing-journals
