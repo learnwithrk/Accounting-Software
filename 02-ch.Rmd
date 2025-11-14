@@ -47,8 +47,9 @@ This chapter explains the basic steps for creating and maintaining a company in 
 ![Company Creation – Step 4](docs/images/2.4..png){width=70%}
 ![Company Creation – Step 5](docs/images/2.5.png){width=70%}
 ![Company Creation – Step 6](docs/images/2.6.png){width=70%}
-<br>
->*Figure: Company Creation screen in TallyPrime – entering name, address, mailing name, books-beginning date, currency symbol.*  
+---
+
+> 💡 **Figure:** Company Creation screen in TallyPrime – entering name, address, mailing name, books-beginning date, currency symbol.*  
 
 
 
