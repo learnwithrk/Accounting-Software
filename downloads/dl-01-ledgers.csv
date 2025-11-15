@@ -1,0 +1,5 @@
+Name,Parent,OpeningBalance,DrCr,MailingName,GSTIN
+Cash in Hand - Chennai,Cash-in-Hand,12000,Dr,,
+Bank of India - Current,Bank Accounts,50000,Dr,,
+Rent Expense,Indirect Expenses,0,Dr,,
+Sales,Sales Accounts,0,Cr,,

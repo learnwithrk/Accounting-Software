@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>2 Fundamentals: Company Creation | ACCOUNTING SOFTWARE</title>
-  <meta name="description" content="2 Fundamentals: Company Creation | ACCOUNTING SOFTWARE" />
+  <title>3 Chart of Accounts: Groups &amp; Ledgers | ACCOUNTING SOFTWARE</title>
+  <meta name="description" content="3 Chart of Accounts: Groups &amp; Ledgers | ACCOUNTING SOFTWARE" />
   <meta name="generator" content="bookdown 0.45 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="2 Fundamentals: Company Creation | ACCOUNTING SOFTWARE" />
+  <meta property="og:title" content="3 Chart of Accounts: Groups &amp; Ledgers | ACCOUNTING SOFTWARE" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="2 Fundamentals: Company Creation | ACCOUNTING SOFTWARE" />
+  <meta name="twitter:title" content="3 Chart of Accounts: Groups &amp; Ledgers | ACCOUNTING SOFTWARE" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="chart-of-accounts-groups-ledgers.html"/>
+<link rel="prev" href="fundamentals-company-creation.html"/>
+<link rel="next" href="passing-journals.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -144,246 +144,209 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="fundamentals-company-creation" class="section level1 hasAnchor" number="2">
-<h1><span class="header-section-number">2</span> Fundamentals: Company Creation<a href="fundamentals-company-creation.html#fundamentals-company-creation" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>This chapter explains the basic steps for creating and maintaining a company in <strong>Tally Prime</strong>, including company details, statutory information (GST, TDS, TCS), and account management.</p>
+<div id="chart-of-accounts-groups-ledgers" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">3</span> Chart of Accounts: Groups &amp; Ledgers<a href="chart-of-accounts-groups-ledgers.html#chart-of-accounts-groups-ledgers" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This chapter explains the structure of the <strong>Chart of Accounts</strong> in Tally Prime, and gives step-by-step procedures to create <strong>Primary Groups</strong>, <strong>Sub-Groups</strong>, and <strong>Ledgers</strong> (single and bulk). Examples and a CSV import example are included.</p>
 <hr />
-<div id="creating-a-company" class="section level2 hasAnchor" number="2.1">
-<h2><span class="header-section-number">2.1</span> Creating a Company<a href="fundamentals-company-creation.html#creating-a-company" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="steps" class="section level3 hasAnchor" number="2.1.1">
-<h3><span class="header-section-number">2.1.1</span> Steps<a href="fundamentals-company-creation.html#steps" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ol style="list-style-type: decimal">
-<li>Open <strong>Tally Prime</strong>.<br />
-</li>
-<li>From the <strong>Gateway of Tally</strong>, select <strong>Create Company</strong>.<br />
-</li>
-<li>Enter the following details carefully:</li>
-</ol>
-<table>
-<colgroup>
-<col width="38%" />
-<col width="61%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Field</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Directory</strong></td>
-<td>Folder path where company data will be stored.</td>
-</tr>
-<tr class="even">
-<td><strong>Name</strong></td>
-<td>Legal name of the company (e.g., <em>ABC Traders Pvt. Ltd.</em>).</td>
-</tr>
-<tr class="odd">
-<td><strong>Mailing Name</strong></td>
-<td>Can be same as the company name or a trade name.</td>
-</tr>
-<tr class="even">
-<td><strong>Address</strong></td>
-<td>Full postal address.</td>
-</tr>
-<tr class="odd">
-<td><strong>Country</strong> and <strong>State</strong></td>
-<td>Choose correct location for GST and statutory compliance.</td>
-</tr>
-<tr class="even">
-<td><strong>Pincode</strong></td>
-<td>Optional but recommended.</td>
-</tr>
-<tr class="odd">
-<td><strong>Telephone / Mobile / Email / Website</strong></td>
-<td>Contact details for invoices and reports.</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="example" class="section level3 hasAnchor" number="2.1.2">
-<h3><span class="header-section-number">2.1.2</span> Example<a href="fundamentals-company-creation.html#example" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><strong>Name:</strong> RK Enterprises<br />
-<strong>Mailing Name:</strong> RK Enterprises<br />
-<strong>Address:</strong> No. 12, Main Road, Chennai – 600001<br />
-<strong>Country:</strong> India<br />
-<strong>State:</strong> Tamil Nadu<br />
-<strong>Email:</strong> <a href="mailto:info@rkenterprises.in" class="email">info@rkenterprises.in</a></p>
-<hr />
-</div>
-</div>
-<div id="company-features-and-statutory-details" class="section level2 hasAnchor" number="2.2">
-<h2><span class="header-section-number">2.2</span> Company Features and Statutory Details<a href="fundamentals-company-creation.html#company-features-and-statutory-details" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>After filling the basic company details, press <strong>F11 – Features</strong> or <strong>F3 – Statutory &amp; Taxation</strong> to configure additional options.</p>
-<hr />
-</div>
-<div id="enable-statutory-taxation" class="section level2 hasAnchor" number="2.3">
-<h2><span class="header-section-number">2.3</span> Enable Statutory &amp; Taxation<a href="fundamentals-company-creation.html#enable-statutory-taxation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Set the following options to <strong>Yes</strong> as applicable:</p>
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Option</strong></th>
-<th><strong>Purpose</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Enable Goods &amp; Services Tax (GST)</td>
-<td>For GST-registered businesses.</td>
-</tr>
-<tr class="even">
-<td>Enable Tax Deducted at Source (TDS)</td>
-<td>If applicable under the Income Tax Act.</td>
-</tr>
-<tr class="odd">
-<td>Enable Tax Collected at Source (TCS)</td>
-<td>For applicable transactions.</td>
-</tr>
-</tbody>
-</table>
-<p>When prompted, enter <strong>GST details</strong>:</p>
-<table>
-<thead>
-<tr class="header">
-<th><strong>Field</strong></th>
-<th><strong>Example Entry</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>GSTIN</td>
-<td>33ABCDE1234F1Z5</td>
-</tr>
-<tr class="even">
-<td>Applicable from</td>
-<td>01-04-2024</td>
-</tr>
-<tr class="odd">
-<td>Type of Registration</td>
-<td>Regular / Composition</td>
-</tr>
-<tr class="even">
-<td>Assessee Type</td>
-<td>Individual / Company / Partnership</td>
-</tr>
-</tbody>
-</table>
-<hr />
-</div>
-<div id="currency-symbol-setup" class="section level2 hasAnchor" number="2.4">
-<h2><span class="header-section-number">2.4</span> Currency Symbol Setup<a href="fundamentals-company-creation.html#currency-symbol-setup" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Tally automatically assigns the <strong>₹ (Rupee symbol)</strong> for Indian companies.</p>
-<p>To change or view the currency symbol:</p>
-<ol style="list-style-type: decimal">
-<li>Go to <strong>Gateway of Tally → Accounts Info → Currencies → Alter</strong></li>
-<li>Edit the currency symbol or name as required.
+<div id="overview-concepts" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Overview — Concepts<a href="chart-of-accounts-groups-ledgers.html#overview-concepts" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li>Example: <code>$</code> for USD, <code>£</code> for GBP.</li>
-</ul></li>
-</ol>
-<hr />
-</div>
-<div id="maintaining-accounts" class="section level2 hasAnchor" number="2.5">
-<h2><span class="header-section-number">2.5</span> Maintaining Accounts<a href="fundamentals-company-creation.html#maintaining-accounts" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>In the <strong>Company Creation</strong> screen:</p>
-<ul>
-<li><strong>Maintain Accounts Only</strong> → For non-inventory businesses.<br />
-</li>
-<li><strong>Maintain Accounts with Inventory</strong> → For businesses dealing with goods or stock.</li>
+<li><strong>Group of Accounts</strong>: A way to classify ledgers. Groups can be <strong>Primary (root)</strong> groups or <strong>Sub-groups</strong>.</li>
+<li><strong>Primary Group</strong>: e.g., <code>Capital Account</code>, <code>Current Assets</code>, <code>Current Liabilities</code>, <code>Direct Expenses</code>.</li>
+<li><strong>Sub-Group</strong>: Group under a primary group, e.g., <code>Sundry Creditors</code> under <code>Current Liabilities</code>.</li>
+<li><strong>Ledger</strong>: Individual account (e.g., <code>Cash</code>, <code>Bank of India</code>, <code>Rent Expense</code>) that belongs to a group.</li>
 </ul>
-<p>Select the appropriate option based on business needs.</p>
 <hr />
 </div>
-<div id="selection-closure-and-alteration-of-company" class="section level2 hasAnchor" number="2.6">
-<h2><span class="header-section-number">2.6</span> Selection, Closure, and Alteration of Company<a href="fundamentals-company-creation.html#selection-closure-and-alteration-of-company" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="selecting-a-company" class="section level3 hasAnchor" number="2.6.1">
-<h3><span class="header-section-number">2.6.1</span> Selecting a Company<a href="fundamentals-company-creation.html#selecting-a-company" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="typical-group-hierarchy-example" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Typical Group hierarchy (example)<a href="chart-of-accounts-groups-ledgers.html#typical-group-hierarchy-example" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<table>
+<thead>
+<tr class="header">
+<th>Level</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Primary Group</td>
+<td>Current Assets</td>
+</tr>
+<tr class="even">
+<td>Sub-Group</td>
+<td>Bank Accounts</td>
+</tr>
+<tr class="odd">
+<td>Ledger</td>
+<td>Bank of India - Current A/c</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div id="creating-a-primary-group-step-by-step" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Creating a Primary Group (Step-by-step)<a href="chart-of-accounts-groups-ledgers.html#creating-a-primary-group-step-by-step" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
-<li>From the <strong>Gateway of Tally</strong>, select <strong>Select Company</strong>.<br />
+<li>Open <strong>Tally Prime</strong> and go to <strong>Gateway of Tally</strong>.<br />
 </li>
-<li>Choose the desired company name from the list.</li>
+<li>Select <strong>Accounts Info.</strong> → <strong>Groups</strong> → <strong>Create</strong>.<br />
+</li>
+<li>In <strong>Name</strong>, type the group name, e.g., <code>Bank Accounts</code>.<br />
+</li>
+<li>In <strong>Under</strong>, choose the parent group (for a primary top-level choose a suitable primary group, e.g., <code>Current Assets</code>).<br />
+</li>
+<li>If required, set <strong>Maintain balances bill-by-bill</strong> or other group-specific features.<br />
+</li>
+<li>Press <strong>Ctrl + A</strong> to accept and save.</li>
 </ol>
+<p><strong>Example</strong></p>
+<ul>
+<li>Name: <code>Bank Accounts</code><br />
+</li>
+<li>Under: <code>Current Assets</code><br />
+</li>
+<li>Accept → Group saved.</li>
+</ul>
+<hr />
 </div>
-<div id="altering-company-information" class="section level3 hasAnchor" number="2.6.2">
-<h3><span class="header-section-number">2.6.2</span> Altering Company Information<a href="fundamentals-company-creation.html#altering-company-information" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="creating-a-sub-group" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Creating a Sub-Group<a href="chart-of-accounts-groups-ledgers.html#creating-a-sub-group" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Follow the <em>same</em> steps as Primary Group creation, but choose a different <strong>Under</strong> value.</p>
+<p><strong>Example</strong></p>
+<ul>
+<li>Name: <code>Cash at Branch</code><br />
+</li>
+<li>Under: <code>Bank Accounts</code> (the sub-group’s parent)<br />
+</li>
+<li>Accept → Sub-group saved.</li>
+</ul>
+<hr />
+</div>
+<div id="creating-a-single-ledger-step-by-step" class="section level3 hasAnchor" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> Creating a Single Ledger (Step-by-step)<a href="chart-of-accounts-groups-ledgers.html#creating-a-single-ledger-step-by-step" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
-<li>From the <strong>Company Info</strong> screen, select <strong>Alter</strong>.<br />
+<li><strong>Gateway of Tally</strong> → <strong>Accounts Info.</strong> → <strong>Ledgers</strong> → <strong>Create</strong>.<br />
 </li>
-<li>Modify details such as address, email, or GSTIN.<br />
+<li>In <strong>Name</strong>, enter ledger name (e.g., <code>Cash in Hand - Chennai</code>).<br />
 </li>
+<li><strong>Under</strong> → choose the appropriate Group (e.g., <code>Cash-in-Hand</code> or <code>Bank Accounts</code>).<br />
+</li>
+<li>Enter <strong>Opening Balance</strong> if required (e.g., <code>Dr 10,000</code>).<br />
+</li>
+<li>Provide other fields as needed:
+<ul>
+<li><strong>Inventory values are affected</strong>: Yes/No<br />
+</li>
+<li><strong>Mailing details</strong> (address, GSTIN) — if required for statutory ledgers<br />
+</li>
+</ul></li>
 <li>Press <strong>Ctrl + A</strong> to save.</li>
 </ol>
-</div>
-<div id="closing-a-company" class="section level3 hasAnchor" number="2.6.3">
-<h3><span class="header-section-number">2.6.3</span> Closing a Company<a href="fundamentals-company-creation.html#closing-a-company" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ol style="list-style-type: decimal">
-<li>Press <strong>Alt + F1 (Shut Company)</strong> to close the current company.<br />
+<p><strong>Example</strong></p>
+<ul>
+<li>Name: <code>Cash in Hand - Chennai</code><br />
 </li>
-<li>The system will return to the <strong>Company Info</strong> menu.</li>
+<li>Under: <code>Cash-in-Hand</code> (Primary Group: <code>Current Assets</code>)<br />
+</li>
+<li>Opening Balance: <code>Dr 12,000</code><br />
+</li>
+<li>Save.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="alteration-modify-of-groups-and-ledgers" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Alteration (Modify) of Groups and Ledgers<a href="chart-of-accounts-groups-ledgers.html#alteration-modify-of-groups-and-ledgers" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="to-alter-a-group" class="section level3 hasAnchor" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> To Alter a Group<a href="chart-of-accounts-groups-ledgers.html#to-alter-a-group" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Gateway of Tally → Accounts Info. → ’Groups → Alter`<br />
+</li>
+<li>Choose the group to alter.<br />
+</li>
+<li>Modify fields (Name / Under / other options).<br />
+</li>
+<li>Press <code>Ctrl + A</code> to save.</li>
+</ol>
+</div>
+<div id="to-alter-a-ledger" class="section level3 hasAnchor" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> To Alter a Ledger<a href="chart-of-accounts-groups-ledgers.html#to-alter-a-ledger" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Gateway of Tally → Accounts Info. → ’Ledgers → Alter`<br />
+</li>
+<li>Select the ledger.<br />
+</li>
+<li>Change details (e.g., Group or Opening Balance).<br />
+</li>
+<li>Press <code>Ctrl + A</code> to save.</li>
+</ol>
+<p><strong>Note:</strong> Changing a ledger’s parent group affects reports. Always back up before major changes.</p>
+<hr />
+</div>
+</div>
+<div id="deletion-of-ledgers-and-groups" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Deletion of Ledgers and Groups<a href="chart-of-accounts-groups-ledgers.html#deletion-of-ledgers-and-groups" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>⚠️ <strong>Warning:</strong> Deleting accounts with transactions can cause data issues.<br />
+Use <em>Alter → Set to Inactive</em> where possible, or take a backup first.</p>
+<div id="to-delete-a-ledger" class="section level3 hasAnchor" number="3.4.1">
+<h3><span class="header-section-number">3.4.1</span> To Delete a Ledger<a href="chart-of-accounts-groups-ledgers.html#to-delete-a-ledger" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Gateway of Tally → Accounts Info. → ’Ledgers → Alter`<br />
+</li>
+<li>Select the ledger.<br />
+</li>
+<li>If allowed, press <code>Alt + D</code> (or choose Delete) and confirm.<br />
+</li>
+<li>If transactions exist, Tally will block deletion.</li>
+</ol>
+</div>
+<div id="to-delete-a-group" class="section level3 hasAnchor" number="3.4.2">
+<h3><span class="header-section-number">3.4.2</span> To Delete a Group<a href="chart-of-accounts-groups-ledgers.html#to-delete-a-group" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Gateway of Tally → Accounts Info. → ’Groups → Alter`<br />
+</li>
+<li>Select the group.<br />
+</li>
+<li>Press <code>Alt + D</code> to delete.<br />
+</li>
+<li>Ensure all ledgers or child groups inside it are deleted or reassigned first.</li>
 </ol>
 <hr />
 </div>
 </div>
-<div id="backup-and-security-recommended" class="section level2 hasAnchor" number="2.7">
-<h2><span class="header-section-number">2.7</span> Backup and Security (Recommended)<a href="fundamentals-company-creation.html#backup-and-security-recommended" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="examples-typical-ledgers-and-groups" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Examples: Typical Ledgers and Groups<a href="chart-of-accounts-groups-ledgers.html#examples-typical-ledgers-and-groups" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="example-chart-for-a-small-business" class="section level3 hasAnchor" number="3.5.1">
+<h3><span class="header-section-number">3.5.1</span> Example Chart for a Small Business<a href="chart-of-accounts-groups-ledgers.html#example-chart-for-a-small-business" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li><strong>Backup:</strong> Go to <strong>Alt + F3 → Backup</strong>, choose the destination drive, and confirm.<br />
-</li>
-<li><strong>Restore:</strong> Use <strong>Alt + F3 → Restore</strong> when required.<br />
-</li>
-<li><strong>Security Control:</strong> Enable user-level access under <strong>F11 → Security Control</strong>.</li>
+<li><strong>Current Assets</strong>
+<ul>
+<li><em>Cash-in-Hand</em>
+<ul>
+<li>Cash in Hand - Chennai (Ledger)</li>
+<li>Petty Cash (Ledger)</li>
+</ul></li>
+<li><em>Bank Accounts</em>
+<ul>
+<li>Bank of India - Current (Ledger)</li>
+</ul></li>
+</ul></li>
+<li><strong>Current Liabilities</strong>
+<ul>
+<li>Sundry Creditors (Ledger)</li>
+</ul></li>
+<li><strong>Indirect Expenses</strong>
+<ul>
+<li>Rent Expense (Ledger)</li>
+<li>Travel Expense (Ledger)</li>
+</ul></li>
+<li><strong>Sales Accounts</strong>
+<ul>
+<li>Sales (Ledger)</li>
+</ul></li>
 </ul>
 <hr />
-</div>
-<div id="summary" class="section level2 hasAnchor" number="2.8">
-<h2><span class="header-section-number">2.8</span> Summary<a href="fundamentals-company-creation.html#summary" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<table>
-<thead>
-<tr class="header">
-<th><strong>Operation</strong></th>
-<th><strong>Key Shortcut</strong></th>
-<th><strong>Purpose</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Create Company</td>
-<td>Alt + F3</td>
-<td>Begin new company setup</td>
-</tr>
-<tr class="even">
-<td>Select Company</td>
-<td>Alt + F1</td>
-<td>Open existing company</td>
-</tr>
-<tr class="odd">
-<td>Alter Company</td>
-<td>Alt + F3 → Alter</td>
-<td>Modify details</td>
-</tr>
-<tr class="even">
-<td>Shut Company</td>
-<td>Alt + F1</td>
-<td>Close company</td>
-</tr>
-<tr class="odd">
-<td>Backup</td>
-<td>Alt + F3 → Backup</td>
-<td>Save data copy</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<blockquote>
-<p>💡 <strong>Tip:</strong> Always verify company information after creation and before entering vouchers to ensure accuracy in GST and financial reporting.</p>
-</blockquote>
 
+</div>
 </div>
 </div>
             </section>
@@ -391,8 +354,8 @@
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="chart-of-accounts-groups-ledgers.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="fundamentals-company-creation.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="passing-journals.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -423,7 +386,7 @@ gitbook.start({
     "size": 2
   },
   "edit": {
-    "link": "https://github.com/learnwithrk/Accounting-Software/edit/main/02-ch.Rmd",
+    "link": "https://github.com/learnwithrk/Accounting-Software/edit/main/03-ch.Rmd",
     "text": "Edit"
   },
   "history": {
@@ -431,7 +394,7 @@ gitbook.start({
     "text": null
   },
   "view": {
-    "link": "https://github.com/learnwithrk/Accounting-Software/blob/main/02-ch.Rmd",
+    "link": "https://github.com/learnwithrk/Accounting-Software/blob/main/03-ch.Rmd",
     "text": null
   },
   "download": null,
