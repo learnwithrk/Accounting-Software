@@ -4,7 +4,8 @@ fundamentals-company-creation
 creating-a-company
 steps
 example
-a-enable-statutory-taxation
+company-features-and-statutory-details
+enable-statutory-taxation
 currency-symbol-setup
 maintaining-accounts
 selection-closure-and-alteration-of-company

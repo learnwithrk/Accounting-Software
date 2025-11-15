@@ -30,15 +30,15 @@ This chapter explains the basic steps for creating and maintaining a company in 
 **Country:** India  
 **State:** Tamil Nadu  
 **Email:** info@rkenterprises.in  
-
 ---
+
 # Company Features and Statutory Details
 
 After filling the basic company details, press **F11 – Features** or **F3 – Statutory & Taxation** to configure additional options.
 
 ---
 
-## (a) Enable Statutory & Taxation
+## Enable Statutory & Taxation
 
 Set the following options to **Yes** as applicable:
 
