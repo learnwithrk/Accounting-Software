@@ -1,91 +1,119 @@
-# Company Features and Statutory Details
+# Accounting Groups and Ledgers in R
 
-After filling the basic company details, press **F11 – Features** or **F3 – Statutory & Taxation** to configure additional options.
+This document explains the hierarchy of accounting groups, ledgers, and basic ledger operations (creation, addition, alteration, deletion) with plain R code examples, suitable for understanding and educational purposes.
+
+## Group of Accounts
+
+A group of accounts refers to a collection of ledgers that share similar characteristics. Groups help organize financial data systematically.
+
+group_of_accounts <- list(
+Assets = c("Cash", "Bank", "Accounts Receivable"),
+Liabilities = c("Loans", "Creditors"),
+Income = c("Sales", "Interest Received"),
+Expenses = c("Salaries", "Rent")
+)
+print(group_of_accounts)
+
+text
+
+## Pre-defined Group
+
+Pre-defined groups are standard categories used in accounting software or systems (like Tally). These include Assets, Liabilities, Income, and Expenses.
+
+predefined_groups <- c("Assets", "Liabilities", "Income", "Expenses")
+print(predefined_groups)
+
+text
+
+## Primary Group and Sub-Group
+
+- **Primary Group:** Top-level categories (such as Assets, Expenses).
+- **Sub-Group:** Sub-divisions within a primary group (e.g., 'Current Assets', 'Direct Expenses').
+
+groups <- list(
+Assets = list("Current Assets" = c("Cash", "Bank"), "Fixed Assets" = c("Equipment", "Real Estate")),
+Expenses = list("Direct Expenses" = c("Raw Materials"), "Indirect Expenses" = c("Rent", "Utilities"))
+)
+print(groups)
+
+text
+
+## Ledger
+
+A ledger is an individual account within a group, representing a specific item (e.g., Cash account under Assets). Each ledger records all transactions related to that item.
+
+ledger_cash <- list(name = "Cash", group = "Current Assets", balance = 15000)
+print(ledger_cash)
+
+text
+
+## Creation of Ledgers
+
+### Single Ledger Creation
+
+Create a single ledger by specifying its name, group, and opening balance.
+
+create_ledger <- function(name, group, balance) {
+list(name = name, group = group, balance = balance)
+}
+ledger_salary <- create_ledger("Salary", "Indirect Expenses", 0)
+print(ledger_salary)
+
+text
+
+### Multiple Ledger Creation
+
+Create multiple ledgers by supplying vectors of names, groups, and balances.
+
+ledger_names <- c("Sales", "Purchases", "Bank")
+ledger_groups <- c("Income", "Expenses", "Current Assets")
+ledger_balances <- c(50000, 30000, 15000)
+ledgers <- mapply(create_ledger, ledger_names, ledger_groups, ledger_balances, SIMPLIFY = FALSE)
+print(ledgers)
+
+text
+
+## Addition, Alteration, and Deletion of Ledgers
+
+### Addition
+
+Add a new ledger to the existing list.
+
+add_ledger <- function(ledgers, new_ledger) {
+c(ledgers, list(new_ledger))
+}
+new_ledger <- create_ledger("Rent", "Indirect Expenses", 0)
+ledgers <- add_ledger(ledgers, new_ledger)
+print(ledgers)
+
+text
+
+### Alteration
+
+Modify ledger properties (e.g., update balance).
+
+alter_ledger <- function(ledger, new_balance) {
+ledger$balance <- new_balance
+ledger
+}
+ledgers[] <- alter_ledger(ledgers[], 60000)
+print(ledgers)
+
+text
+
+### Deletion
+
+Remove a ledger by its name.
+
+delete_ledger <- function(ledgers, name) {
+ledgers[!sapply(ledgers, function(x) x$name == name)]
+}
+ledgers <- delete_ledger(ledgers, "Bank")
+print(ledgers)
+
+text
 
 ---
 
-## (a) Enable Statutory & Taxation
-
-Set the following options to **Yes** as applicable:
-
-| **Option** | **Purpose** |
-|-------------|-------------|
-| Enable Goods & Services Tax (GST) | For GST-registered businesses. |
-| Enable Tax Deducted at Source (TDS) | If applicable under the Income Tax Act. |
-| Enable Tax Collected at Source (TCS) | For applicable transactions. |
-
-When prompted, enter **GST details**:
-
-| **Field** | **Example Entry** |
-|------------|-------------------|
-| GSTIN | 33ABCDE1234F1Z5 |
-| Applicable from | 01-04-2024 |
-| Type of Registration | Regular / Composition |
-| Assessee Type | Individual / Company / Partnership |
-
----
-
-## Currency Symbol Setup
-
-Tally automatically assigns the **₹ (Rupee symbol)** for Indian companies.
-
-To change or view the currency symbol:
-
-1. Go to **Gateway of Tally → Accounts Info → Currencies → Alter**
-2. Edit the currency symbol or name as required.  
-   - Example: `$` for USD, `£` for GBP.
-
----
-
-## Maintaining Accounts
-
-In the **Company Creation** screen:
-
-- **Maintain Accounts Only** → For non-inventory businesses.  
-- **Maintain Accounts with Inventory** → For businesses dealing with goods or stock.  
-
-Select the appropriate option based on business needs.
-
----
-
-## Selection, Closure, and Alteration of Company
-
-### (a) Selecting a Company
-
-1. From the **Gateway of Tally**, select **Select Company**.  
-2. Choose the desired company name from the list.
-
-### (b) Altering Company Information
-
-1. From the **Company Info** screen, select **Alter**.  
-2. Modify details such as address, email, or GSTIN.  
-3. Press **Ctrl + A** to save.
-
-### (c) Closing a Company
-
-1. Press **Alt + F1 (Shut Company)** to close the current company.  
-2. The system will return to the **Company Info** menu.
-
----
-
-## Backup and Security (Recommended)
-
-- **Backup:** Go to **Alt + F3 → Backup**, choose the destination drive, and confirm.  
-- **Restore:** Use **Alt + F3 → Restore** when required.  
-- **Security Control:** Enable user-level access under **F11 → Security Control**.
-
----
-
-## Summary
-
-| **Operation** | **Key Shortcut** | **Purpose** |
-|----------------|------------------|--------------|
-| Create Company | Alt + F3 | Begin new company setup |
-| Select Company | Alt + F1 | Open existing company |
-| Alter Company | Alt + F3 → Alter | Modify details |
-| Shut Company | Alt + F1 | Close company |
-| Backup | Alt + F3 → Backup | Save data copy |
-
----
-
-> 💡 **Tip:** Always verify company information after creation and before entering vouchers to ensure accuracy in GST and financial reporting.
+> **Summary:**  
+> Groups and ledgers form the backbone of accounting data organization. R can be used to illustrate basic operations with functions for creation, addition, alteration, and deletion, from single to multiple ledger entries.

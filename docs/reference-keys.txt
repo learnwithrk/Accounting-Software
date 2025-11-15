@@ -4,8 +4,6 @@ fundamentals-company-creation
 creating-a-company
 steps
 example
-visual-reference-company-creation-screens
-company-features-and-statutory-details
 a-enable-statutory-taxation
 currency-symbol-setup
 maintaining-accounts
@@ -15,4 +13,16 @@ b-altering-company-information
 c-closing-a-company
 backup-and-security-recommended
 summary
+accounting-groups-and-ledgers-in-r
+group-of-accounts
+pre-defined-group
+primary-group-and-sub-group
+ledger
+creation-of-ledgers
+single-ledger-creation
+multiple-ledger-creation
+addition-alteration-and-deletion-of-ledgers
+addition
+alteration
+deletion
 passing-journals
