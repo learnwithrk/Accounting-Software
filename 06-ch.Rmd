@@ -211,18 +211,20 @@ You want to manage using Stock Groups, Units, Categories.
 
 3. **Sold** 2 Laptops @ ₹45,000 each to *Tech Solutions*.
 
-4. **Sold** 1 HP Printer @ ₹12,000 to *Digital Store*.
+4. **Purchased** 5 HP Printers @ 8,000 from *ABC Traders*
 
-5. **Purchase Return:** Returned 1 Office Chair to *Comfort Furniture*.
+5. **Sold** 1 HP Printer @ ₹12,000 to *Digital Store*.
 
-6. **Sales Return:** Customer *Tech Solutions* returned 1 Laptop.
+6. **Purchase Return:** Returned 1 Office Chair to *Comfort Furniture*.
 
-7. **Purchased** 50 A4 Paper Packs @ ₹110 per pack from *Paper Mart*.
+7. **Sales Return:** Customer *Tech Solutions* returned 1 Laptop.
 
-8. **Sold** 20 A4 Paper Packs @ ₹150 per pack to *City Office Ltd*.
+8. **Purchased** 50 A4 Paper Packs @ ₹110 per pack from *Paper Mart*.
 
-9. **Sold** 5 Office Chairs @ ₹3,200 each to *Smart Interiors*.
+9. **Sold** 20 A4 Paper Packs @ ₹150 per pack to *City Office Ltd*.
 
-10. **Stock Loss:** Damaged 2 A4 Paper Packs written off as stock loss.
+10. **Sold** 5 Office Chairs @ ₹3,200 each to *Smart Interiors*.
+
+11. **Stock Loss:** Damaged 2 A4 Paper Packs written off as stock loss.
 
 ---
